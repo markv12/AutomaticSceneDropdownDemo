@@ -62,7 +62,8 @@ namespace KingdomOfNight
 {
     public partial class SceneLoader
     {
-#if UNITY_EDITOR
+");
+            result.Append(@"#if UNITY_EDITOR
 ");
         }
 
